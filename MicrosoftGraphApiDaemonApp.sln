@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicrosoftGraphApiDaemonApp", "MicrosoftGraphApiDaemonApp\MicrosoftGraphApiDaemonApp.csproj", "{168D4F9A-C2BA-4536-8EB0-2DB49BC3344F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6773B37-63DB-470D-835D-1DD251CCB08E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{168D4F9A-C2BA-4536-8EB0-2DB49BC3344F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168D4F9A-C2BA-4536-8EB0-2DB49BC3344F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168D4F9A-C2BA-4536-8EB0-2DB49BC3344F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168D4F9A-C2BA-4536-8EB0-2DB49BC3344F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {746042CB-93AB-4B34-B60D-35C4C4AA6C9D}
+	EndGlobalSection
+EndGlobal

@@ -10,6 +10,13 @@ namespace MicrosoftGraphApiDaemonApp.GraphApiRepository.TokenRepository
 {
     public class TokenImplementation : ITokenProcessorRepository
     {
+        /// <summary>
+        /// This method uses client secret which was kept at azure key vault to get access token for second application.
+        /// This token will be used to access microsoft graph APIs.
+        /// </summary>
+        /// <param name="_iAuthenticationRepository"></param>
+        /// <param name="clientSecret"></param>
+        /// <returns></returns>
         public async Task<string> GetGraphApiAccessToken(IAuthenticationRepository _iAuthenticationRepository, string clientSecret)
         {
            

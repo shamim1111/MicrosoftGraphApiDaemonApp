@@ -23,7 +23,7 @@ namespace MicrosoftGraphApiDaemonApp.KeyVaultAccessRepository
 
         }
         /// <summary>
-        /// This method will authenticate with azure active directory and will get the client secrect to access microsoft 
+        /// This method will authenticate with azure active directory for the first application and will get the client secrect to access microsoft 
         /// graph APIs
         /// </summary>
         /// <param name="iAuthRepository"></param>

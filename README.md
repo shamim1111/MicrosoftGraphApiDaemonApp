@@ -1,5 +1,5 @@
 # MicrosoftGraphApiDaemonApp
-Description: This application retrieve client secret from azure key vault and then get the access token to call Microsoft Graph APIs.
+Description: This application retrieves  the client secret from the azure key vault and then get the access token to call Microsoft Graph APIs.
 
 Steps:
 01: Register an application which can be decribed as first applicaiton via app registration in azure active directory and get client id and client secret by adding

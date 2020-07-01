@@ -50,10 +50,10 @@ d.Also other libraries to access appsettings.json and app.config file.Check the 
 16.In the application 'Task <string>GetClientSecretFromKeyVault(IAuthenticationRepository iAuthRepository)' this method at IKeyVaultAccessRepository gets the access token
 for the first application after authentication with azure AD by using confidential client flow then get the client secret for second application  which was kept in azure key vault.
 
-17.In the application 'Task<string> GetGraphApiAccessToken(IAuthenticationRepository _iAuthenticationRepository, string clientSecret)' this method at ITokenProcessorRepository uses the client secret kept at the key vault returned
+17.In the application 'Task<string> GetGraphApiAccessToken(IAuthenticationRepository _iAuthenticationRepository, string clientSecret)', this method at ITokenProcessorRepository uses the client secret kept at the key vault returned
 from  the method of the step 16 to get access token for accessing graph api.
 
-18.In the application  Task<List<User>> GetUserDetails(IAuthenticationRepository iAuthenticationRepository, string token) this method at IUserDetailsRepository returns  the response payload of list of users from
+18.In the application  'Task<List<User>> GetUserDetails(IAuthenticationRepository iAuthenticationRepository, string token)'. this method at IUserDetailsRepository returns  the response payload of list of users from
 the microsoft graph API.
 
 19:Finally add the following code to the MicrosoftGraphApiDaemonApp.csproj file to copy the appsettings.json file to the bin folder when it  builds/rebuilds the project.

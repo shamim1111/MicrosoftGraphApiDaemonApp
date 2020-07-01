@@ -55,7 +55,7 @@ for the first application after authentication with azure AD by using confidenti
 from  the method of the step 16 to get access token for accessing graph api.
 
 18.In the application  'Task<List<User>> GetUserDetails(IAuthenticationRepository iAuthenticationRepository, string token)',this method at IUserDetailsRepository returns  the response payload of list of users from
-the microsoft graph API.
+the microsoft graph API...
 
 19:Finally add the following code to the MicrosoftGraphApiDaemonApp.csproj file to copy the appsettings.json file to the bin folder when it  builds/rebuilds the project.
 
